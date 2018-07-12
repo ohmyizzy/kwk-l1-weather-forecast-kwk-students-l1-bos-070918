@@ -36,10 +36,8 @@ end
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
 def convert_temp(temp)
-  puts weatherish
-  # f = weatherish[:temperature_farenheit].to_f
-  # celsius = (f - 32) * (5/9)
-  # #"%.2f" % celsius
+  celsius = (temp.to_f - 32) * (5/9)
+  "%.2f" % celsius
 end
 
 convert_temp(75)
