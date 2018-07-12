@@ -37,9 +37,7 @@ end
 
 def convert_temp(temp)
   celsius = (temp.to_f - 32) * 5 / 9
-  return celsius
+  return "%.2f" % celsius
 end
-
-puts convert_temp(75)
 
 
