@@ -38,7 +38,7 @@ end
 def convert_temp(temp)
   f = temp[:temperature_farenheit]
   celsius = (f.to_f - 32) * 5 / 9
-  return "%.2f" % celsius
+  return ("%.2f" % celsius).to_f
 end
 
 
