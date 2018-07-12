@@ -36,7 +36,7 @@ end
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
 def convert_temp(temp)
-  puts temp.to_f
+  puts temp.to_f - 32
   celsius = (temp.to_f - 32) * (5/9)
 end
 
