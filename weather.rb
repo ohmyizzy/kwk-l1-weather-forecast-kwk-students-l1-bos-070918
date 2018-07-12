@@ -36,7 +36,8 @@ end
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
 def convert_temp(temp)
-  celsius = (temp.to_f - 32) * 5 / 9
+  f = temp[:temperature_farenheit]
+  celsius = (f.to_f - 32) * 5 / 9
   return "%.2f" % celsius
 end
 
