@@ -40,6 +40,6 @@ def convert_temp(temp)
   "%.2f" % celsius
 end
 
-convert_temp(75)
+puts convert_temp(75)
 
 
