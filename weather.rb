@@ -37,7 +37,7 @@ end
 
 def convert_temp(temp)
   puts temp.to_f
-  celsius = ( - 32) * (5/9)
+  celsius = (temp.to_f - 32) * (5/9)
   "%.2f" % celsius
 end
 
